@@ -15,7 +15,12 @@ for i in sys.argv:
     print (i)
 print ('\n python 路径为' , sys.path)
 """
-
+'''
 from sys import argv,path
 
 print ('path:', path)
+'''
+a, b, c, d = 20, 5.5, True, 4+3j
+print(type(a), type(b), type(c), type(d))
+a = 111
+print( isinstance(a, int) )

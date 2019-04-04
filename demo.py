@@ -25,3 +25,30 @@ print(tuple(b))
 a = 60
 b = 13
 print (a<<2)
+a = 0
+b = 1
+if (a and b) :
+    print('ab为True')
+else :
+    print ('ab有一个为False')
+list = [1, 2, 3, 4, 5];
+if (a in list) :
+    print ('a在list中')
+else :
+    print ('a不在list中')
+if (b not in list) :
+    print ('b不在list中')
+else :
+    print ('b在list中')
+if (a is b) :
+    print ('a与b有相同标识')
+else :
+    print ('a与b没有相同标识')
+if (a is not b) :
+    print ('a与b没有相同标识')
+else :
+    print ('a与b有相同标识')
+if (id(a) == id(b)) :
+    print ('a与b有相同标识')
+else :
+    print ('a与b没有相同标识')
